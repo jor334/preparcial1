@@ -1,0 +1,10 @@
+{
+  "welcome": "Bienvenido",
+  "description": "Esta es una aplicación con soporte de internacionalización.",
+  "profile": "Perfil",
+  "settings": "Configuración",
+  "language": "Idioma",
+  "switchTo": "Cambiar a",
+  "currentLang": "Idioma actual: Español",
+  "home": "Inicio"
+}
