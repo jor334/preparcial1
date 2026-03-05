@@ -1,3 +1,7 @@
+import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
+import '../globals.css';
+
 export async function generateStaticParams() {
   return [{ lang: 'en' }, { lang: 'es' }]
 }
@@ -5,13 +9,19 @@ export async function generateStaticParams() {
 export default async function RootLayout({
   children,
   params,
-}: {
-  children: React.ReactNode
-  params: Promise<{ lang: string }>
-}) {
+}:  LayoutProps<'/[lang]'>) {
   return (
     <html lang={(await params).lang}>
-      <body>{children}</body>
+
+
+      <body>
+        <Navbar></Navbar>
+        
+        {children}
+      <Footer></Footer>
+        
+        </body>
+
     </html>
   )
 }
