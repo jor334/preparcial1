@@ -6,5 +6,12 @@
   "language": "Idioma",
   "switchTo": "Cambiar a",
   "currentLang": "Idioma actual: Español",
-  "home": "Inicio"
+  "home": "Inicio",
+  "pageTitle": "Personajes de Harry Potter",
+  "pageDescription": "Explora el universo mágico de Harry Potter: un listado completo de personajes con su casa, especie y datos especiales.",
+  "house": "Casa",
+  "gender": "Género",
+  "wand": "Varita",
+  "wood": "Madera",
+  "length": "Longitud"
 }

@@ -11,16 +11,16 @@ export default async function RootLayout({
   params,
 }:  LayoutProps<'/[lang]'>) {
   return (
-    <html lang={(await params).lang}>
+    <html lang={(await params).lang} className="bg-white">
+      
 
-
-      <body>
+      <body className="flex flex-col min-h-screen">
         <Navbar></Navbar>
         
-        {children}
-      <Footer></Footer>
-        
-        </body>
+        <main className="flex-1">{children}</main>
+
+        <Footer></Footer>
+      </body>
 
     </html>
   )

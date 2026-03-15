@@ -6,5 +6,12 @@
   "language": "Language",
   "switchTo": "Switch to",
   "currentLang": "Current language: English",
-  "home": "Home"
+  "home": "Home",
+  "pageTitle": "Harry Potter Characters",
+  "pageDescription": "Explore the magical universe of Harry Potter: a complete list of characters with their house, species and special data.",
+  "house": "House",
+  "gender": "Gender",
+  "wand": "Wand",
+  "wood": "Wood",
+  "length": "Length"
 }
